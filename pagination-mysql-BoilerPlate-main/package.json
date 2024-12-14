@@ -1,0 +1,27 @@
+{
+  "name": "server-testing",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000e\u0000m\u0000p\u0000l\u0000a\u0000t\u0000e\u0000-\u0000m\u0000y\u0000s\u0000q\u0000l\u0000-\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000-\u0000b\u0000o\u0000i\u0000l\u0000e\u0000r\u0000p\u0000l\u0000a\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "run": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mysql": "2.18.1",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "6.1.1",
+    "node-serialize": "0.0.4",
+    "sinon": "^9.2.1"
+  },
+  "keywords": []
+}
